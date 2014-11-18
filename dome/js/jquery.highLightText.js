@@ -6,7 +6,7 @@
 			divFlag: true,
 			divStr: " ",
 			markClass: "",
-			markColor: "green",
+			markColor: "red",
 			nullReport: true,
 			callback: function(){
 				return false;
