@@ -22,10 +22,17 @@ $(".test").highLightText("空姐 凤姐 芙蓉姐",{markColor: "blue"});
 三、一些可选参数
 
 参见下表：
+
 参数 	默认值 	说明
+
 divFlag 	true 	布尔型，true表示对字符串进行多关键字处理，false表示不处理，整个字符串看成1个关键字
+
 divStr 	" " 	字符串，表示分割多个关键字的字符，默认为空格，如果divFlag为false，此参数将失效
+
 markClass 	"" 	代码高亮的class类，默认为没有样式，如果设置样式，将覆盖默认的红色高亮颜色值
+
 markColor 	"red" 	字符串，指高亮文字的颜色值，默认红色。markClass不为空，则此参数失效。
+
 nullReport 	true 	布尔型，表示当搜索结果为空时，是否弹出提示信息。默认弹出。
+
 callback 	return false; 	回调函数，默认无效果。当存在搜索结果时执行。
